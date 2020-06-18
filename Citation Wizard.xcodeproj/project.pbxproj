@@ -13,6 +13,12 @@
 		5B15E024249B740B00D7FB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B15E023249B740B00D7FB52 /* Assets.xcassets */; };
 		5B15E027249B740B00D7FB52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B15E026249B740B00D7FB52 /* Preview Assets.xcassets */; };
 		5B15E02A249B740B00D7FB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B15E028249B740B00D7FB52 /* Main.storyboard */; };
+		5B15E033249B748300D7FB52 /* Bibliography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15E032249B748300D7FB52 /* Bibliography.swift */; };
+		5BAD61FC249B8860009339EF /* AddCitationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD61FB249B8860009339EF /* AddCitationSheet.swift */; };
+		5BF254F0249B78BA00AA6937 /* NavigationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF254EF249B78BA00AA6937 /* NavigationMaster.swift */; };
+		5BF254F2249B78F300AA6937 /* BibliographyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF254F1249B78F300AA6937 /* BibliographyList.swift */; };
+		5BF254F4249B796F00AA6937 /* BibliographyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF254F3249B796F00AA6937 /* BibliographyRow.swift */; };
+		5BF254FA249B843200AA6937 /* ViewBibliography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF254F9249B843200AA6937 /* ViewBibliography.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		5B15E029249B740B00D7FB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B15E02B249B740B00D7FB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B15E02C249B740B00D7FB52 /* Citation_Wizard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Citation_Wizard.entitlements; sourceTree = "<group>"; };
+		5B15E032249B748300D7FB52 /* Bibliography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bibliography.swift; sourceTree = "<group>"; };
+		5BAD61FB249B8860009339EF /* AddCitationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCitationSheet.swift; sourceTree = "<group>"; };
+		5BF254EF249B78BA00AA6937 /* NavigationMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMaster.swift; sourceTree = "<group>"; };
+		5BF254F1249B78F300AA6937 /* BibliographyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliographyList.swift; sourceTree = "<group>"; };
+		5BF254F3249B796F00AA6937 /* BibliographyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliographyRow.swift; sourceTree = "<group>"; };
+		5BF254F9249B843200AA6937 /* ViewBibliography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBibliography.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +71,18 @@
 			children = (
 				5B15E01C249B740800D7FB52 /* AppDelegate.swift */,
 				5B15E01E249B740800D7FB52 /* ContentView.swift */,
+				5B15E032249B748300D7FB52 /* Bibliography.swift */,
 				5B15E023249B740B00D7FB52 /* Assets.xcassets */,
 				5B15E028249B740B00D7FB52 /* Main.storyboard */,
 				5B15E02B249B740B00D7FB52 /* Info.plist */,
 				5B15E02C249B740B00D7FB52 /* Citation_Wizard.entitlements */,
 				5B15E020249B740800D7FB52 /* Citation_Wizard.xcdatamodeld */,
 				5B15E025249B740B00D7FB52 /* Preview Content */,
+				5BF254EF249B78BA00AA6937 /* NavigationMaster.swift */,
+				5BF254F1249B78F300AA6937 /* BibliographyList.swift */,
+				5BF254F3249B796F00AA6937 /* BibliographyRow.swift */,
+				5BF254F9249B843200AA6937 /* ViewBibliography.swift */,
+				5BAD61FB249B8860009339EF /* AddCitationSheet.swift */,
 			);
 			path = "Citation Wizard";
 			sourceTree = "<group>";
@@ -148,8 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAD61FC249B8860009339EF /* AddCitationSheet.swift in Sources */,
+				5BF254FA249B843200AA6937 /* ViewBibliography.swift in Sources */,
+				5BF254F4249B796F00AA6937 /* BibliographyRow.swift in Sources */,
 				5B15E022249B740800D7FB52 /* Citation_Wizard.xcdatamodeld in Sources */,
+				5BF254F2249B78F300AA6937 /* BibliographyList.swift in Sources */,
+				5B15E033249B748300D7FB52 /* Bibliography.swift in Sources */,
 				5B15E01F249B740800D7FB52 /* ContentView.swift in Sources */,
+				5BF254F0249B78BA00AA6937 /* NavigationMaster.swift in Sources */,
 				5B15E01D249B740800D7FB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

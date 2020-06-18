@@ -9,12 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    @State private var selectedBibliography: Bibliography?
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        NavigationView {
+            NavigationMaster(selectedBibliography: $selectedBibliography)
+            if selectedBibliography != nil {
+                ViewBibliography(bibliography: selectedBibliography!)
+            }
+        }
+        .frame(minWidth: 700, minHeight: 300)
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
